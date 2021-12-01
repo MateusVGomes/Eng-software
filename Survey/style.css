@@ -1,0 +1,100 @@
+html {
+
+    font-size: 10px;
+
+    background-color:#313866;
+
+    color:white;
+
+    display:flex;
+  
+   justify-content: center;
+}
+  fieldset {
+    
+    border: 0;
+    
+  }
+  body {
+    
+    font-family: "Shippori Antique", sans-serif;
+    
+    text-align: center;
+    
+    font-size: 1.5em;
+  }
+  
+  input {
+    
+    border-radius: 20px;
+    
+    border:white;
+    
+    
+  }
+  input[type="number"]{
+    
+    width:360px;
+  
+}
+  
+  
+  textarea{
+
+    resize:none;
+  
+}
+#legend-name {
+    padding: 10px 250px 5px 10px;
+  }
+  
+  #legend-email {
+     padding: 10px 330px 5px 10px;
+  }
+  
+  #legend-mat {
+    padding: 10px 295px 5px 10px;
+  }
+  #legend-dropdown {
+    padding: 10px 10px 5px 10px;
+  }
+  
+  #dropdown {
+    width:370px;
+    border-radius: 20px;
+   padding:10px 0px 10px 10px;
+  border-color: white;
+  }
+  #number{
+    
+    padding:10px 0px 10px 10px;
+  }
+  #email{
+    
+    padding:10px 0px 10px 10px;
+  }
+  
+  #name{
+    
+    padding:10px 0px 10px 10px;
+    
+  }
+  #btn-1{
+    padding-top: 20px;
+    padding-right:2px;
+  }
+  #btn-2{
+    padding-bottom: 5000px;
+    padding-right:3px;
+  }
+  #btn-3{
+    padding-top: 20px;
+    padding-right:170px;
+  }
+  #survey-form{
+    border:solid 1px;
+    border-radius:20px;
+    margin:0 500px 0px 500px;
+    background-color: #50409A;
+  }
+  

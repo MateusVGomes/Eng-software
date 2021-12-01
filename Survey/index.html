@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pesquisa de satisfação</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+   
+<body>
+
+    <h1 id="title">Pesquisa de avaliação institucional do semestre</h1>
+  
+    <p id="description">Por favor nós dê seu feedback sobre como foi este período</p>
+  
+    <form id="survey-form" action="">
+  
+      <fieldset>
+  
+         <label id="name-label" for=""><legend id="legend-name">Nome completo</legend> </label>
+  
+        <input size=50 type="text" required id="name" placeholder="Insira o seu nome aqui">
+  
+      
+  
+      </fieldset>
+  
+      <fieldset>
+         <label id="email-label" for=""><legend id="legend-email">Email</legend> </label>
+  
+        <input size=50 type="email" required id="email" placeholder="Insira o seu nome aqui">
+  
+      
+      </fieldset>
+      <fieldset>
+  
+        <label id="number-label" for=""><legend id="legend-mat">Matricula</legend></label>
+        
+        <input size=500 id="number" type="number" min=0 max=15 required placeholder="Insira o seu número aqui">
+        
+        
+  
+        <fieldset>
+          <legend id="legend-dropdown">Qual seu nivel de satisfação com esse periodo?</legend>
+          
+          <select  name="" id="dropdown">
+            
+            <option value="">Ótimo</option>
+            
+            <option value="">Bom</option>
+            
+            <option value="">Ruim</option>
+            
+            <option value="">Péssimo</option>
+            
+            <option value="">Nova trilogia de star wars</option>
+         
+            </fieldset>
+        </select>
+         <fieldset >
+          <legend id="legend-radio">A comunicação entre coordenação e aluno melhorou?</legend>
+           
+           <input id="resp1" value=1 type="radio" name="resp">Sim
+   
+        <label for="resp1"></label>
+  
+        <input id="resp2" value=0 type="radio" name="resp">Não
+  
+        <label for="resp2"></label>
+        
+        </fieldset>
+         
+        <fieldset>  
+           <legend>Qual area(s) você acha que a faculdade deve melhorar?</legend>
+          <input type="checkbox" value="resp">
+           <label id="btn-1" for="">Comunicação com a coordenação</label>
+          <fieldset>
+           
+            <input  type="checkbox" value="cu1">
+              <label id="btn-2" for="">Comunicação com os professores</label>
+          </fieldset>
+          
+          <input  type="checkbox" value="cu2">
+           <label id="btn-3" for="">Avaliações</label>
+        </fieldset>
+        
+        <fieldset>  
+          <legend>Deixe aqui sua opinião adicional sobre melhoras</legend>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+       
+        <fieldset>  
+          
+          <button value="submit" id="submit">submit</button>
+                </fieldset>
+          </form>
+  
+        </body>
+</html>
